@@ -10,8 +10,8 @@
 
 #import <Foundation/Foundation.h>
 #import <IJKMediaFramework/IJKMediaFramework.h>
-#import <SJVideoPlayerPlaybackControllerDefines.h>
-#import <SJAVMediaPlayer.h>
+#import "SJVideoPlayerPlaybackControllerDefines.h"
+#import "SJAVMediaPlayer.h"
 
 NS_ASSUME_NONNULL_BEGIN
 extern NSNotificationName const SJIJKMediaPlayerAssetStatusDidChangeNotification;

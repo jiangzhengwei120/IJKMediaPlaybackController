@@ -9,7 +9,7 @@
 #if __has_include(<IJKMediaFramework/IJKMediaFramework.h>)
 
 #import <Foundation/Foundation.h>
-#import <SJVideoPlayerPlaybackControllerDefines.h>
+#import "SJVideoPlayerPlaybackControllerDefines.h"
 @class IJKFFOptions;
 
 NS_ASSUME_NONNULL_BEGIN
