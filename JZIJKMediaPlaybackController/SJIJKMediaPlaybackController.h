@@ -1,21 +1,20 @@
 //
 //  SJIJKMediaPlaybackController.h
-//  SJVideoPlayer_Example
+//  Test
 //
-//  Created by BlueDancer on 2019/10/12.
-//  Copyright © 2019 changsanjiang. All rights reserved.
+//  Created by 畅三江 on 2018/8/12.
+//  Copyright © 2018 畅三江. All rights reserved.
 //
-
-#if __has_include(<IJKMediaFramework/IJKMediaFramework.h>)
 
 #import <Foundation/Foundation.h>
-#import "SJVideoPlayerPlaybackControllerDefines.h"
-@class IJKFFOptions;
+#if __has_include(<SJBaseVideoPlayer/SJMediaPlaybackProtocol.h>)
+#import <SJBaseVideoPlayer/SJMediaPlaybackProtocol.h>
+#else
+#import "SJMediaPlaybackProtocol.h"
+#endif
 
 NS_ASSUME_NONNULL_BEGIN
-@interface SJIJKMediaPlaybackController : NSObject<SJVideoPlayerPlaybackController>
-@property (nonatomic, strong, null_resettable) IJKFFOptions *options;
+@interface SJIJKMediaPlaybackController : NSObject<SJMediaPlaybackController>
+
 @end
 NS_ASSUME_NONNULL_END
-
-#endif
